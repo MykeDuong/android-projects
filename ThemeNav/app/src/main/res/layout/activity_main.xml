@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+@Author: Minh Duong
+@Description: This XML file contains order and styles of the contents of the User Interface
+              of the app (Main Activity).
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:orientation="vertical" >
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/skyrim_logo"
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:paddingTop="28dp"
+            android:paddingBottom="14dp"
+            android:src="@drawable/skyrim_logo" />
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/skyrim_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/heading_color"
+            android:textSize="50dp"
+            android:text="@string/heading" />
+
+        <!-- Introduction -->
+        <TextView
+            android:id="@+id/skyrim_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="14dp"
+            android:textSize="10pt"
+            android:textColor="@color/text_color"
+            android:text="@string/skyrim_intro" />
+
+        <!-- Protagonist Picture -->
+        <ImageView
+            android:id="@+id/skyrim_dragonborn"
+            android:layout_gravity="center"
+            android:layout_width="296dp"
+            android:layout_height="166dp"
+            android:padding="2dp"
+            android:background="@color/theme"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/skyrim_dragonborn" />
+
+        <!-- Game Description -->
+        <TextView
+            android:id="@+id/skyrim_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="14dp"
+            android:textSize="10pt"
+            android:textColor="@color/text_color"
+            android:text="@string/skyrim_description" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:onClick="DragonbornButtonPressed"
+            android:text="@string/dragonborn_button_text" />
+
+        <!-- Landscape Picture -->
+        <ImageView
+            android:id="@+id/skyrim_landscape"
+            android:layout_gravity="center"
+            android:layout_width="296dp"
+            android:layout_height="166dp"
+            android:padding="2dp"
+            android:background="@color/purple_200"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/skyrim_landscape" />
+
+        <!-- Region Description -->
+        <TextView
+            android:id="@+id/skyrim_region_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="14dp"
+            android:textSize="10pt"
+            android:textColor="@color/text_color"
+            android:text="@string/skyrim_land" />
+
+        <!-- DLC picture -->
+        <ImageView
+            android:id="@+id/skyrim_dlc"
+            android:layout_gravity="center"
+            android:layout_width="296dp"
+            android:layout_height="148dp"
+            android:padding="3dp"
+            android:background="@color/secondary"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/skyrim_dawnguard" />
+
+        <!-- DLC description -->
+        <TextView
+            android:id="@+id/dlc_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="20dp"
+            android:textSize="10pt"
+            android:textColor="@color/text_color"
+            android:text="@string/skyrim_dlc" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:onClick="dlcButtonPressed"
+            android:text="@string/dlc_button_text" />
+
+    </LinearLayout>
+</ScrollView>

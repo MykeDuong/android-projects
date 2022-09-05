@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+@Author: Minh Duong
+@Description: This XML file contains order and styles of the contents of the User Interface
+              of the SummaryActivity activity. It contains the headings, the temperament result
+              of the user, a brief description of such temperament and the points that the user
+              scored in their quiz.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:id="@+id/summary_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/heading"
+            android:textSize="50sp"
+            android:text="@string/summary_heading" />
+
+        <!-- Result section -->
+        <TextView
+            android:id="@+id/result_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/heading"
+            android:textSize="30sp"
+            android:text="@string/result_heading" />
+
+        <TextView
+            android:id="@+id/summary_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <!-- Description section -->
+        <TextView
+            android:id="@+id/description_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/heading"
+            android:textSize="30sp"
+            android:text="@string/description_heading" />
+
+        <TextView
+            android:id="@+id/temp_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <!-- Score section -->
+        <TextView
+            android:id="@+id/score_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/heading"
+            android:textSize="30sp"
+            android:text="@string/score_heading" />
+
+        <TextView
+            android:id="@+id/choleric_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="@string/choleric_score" />
+
+        <TextView
+            android:id="@+id/sanguine_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="@string/sanguine_score" />
+
+        <TextView
+            android:id="@+id/melancholic_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="@string/melancholic_score" />
+
+        <TextView
+            android:id="@+id/phlegmatic_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="@string/phlegmatic_score" />
+    </LinearLayout>
+</ScrollView>

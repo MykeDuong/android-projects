@@ -1,0 +1,56 @@
+<resources>
+    <!-- Welcome Activity -->
+    <string name="app_name">Four Temperaments Quiz</string>
+    <string name="welcome">Welcome to the Four Temperament Quiz!</string>
+    <string name="begin_quiz">Begin quiz</string>
+
+    <!-- Quiz Activity -->
+    <string name="strongly_agree">Strongly Agree</string>
+    <string name="partially_agree">Partially Agree</string>
+    <string name="neutral">Neutral</string>
+    <string name="partially_disagree">Partially Disagree</string>
+    <string name="strongly_disagree">Strongly Disagree</string>
+    <string name="next">NEXT QUESTION</string>
+    <string name="answer_warning">Please choose an option to continue</string>
+
+    <!-- Summary Activity -->
+    <string name="summary_heading">Quiz Summary</string>
+    <string name="result_heading">Your Temperament:</string>
+    <string name="description_heading">Temperament Description:</string>
+    <string name="score_heading">Temperament Scores:</string>
+
+    <string name="congratulations">Wow! You have more than 1 temperament! That\'s %1$d
+                                   temperamental tendencies in total!\n\n</string>
+    <string name="choleric">People with a choleric temperament are extroverted and exude
+                            self-confidence. They are independent and strong-willed. They have
+                            quick minds and are generally active and practical in their activities.
+                            Their communication style is assertive and direct, often brief,
+                            almost to the point of rudeness.</string>
+    <string name="melancholic">The melancholy temperament is a rule follower. They can be
+                               cautious and tentative in unfamiliar environments, but they
+                               can also become aggressive when faced with an unfavorable
+                               situation. They are private and introverted. This temperament is
+                               factual, logical, and analytical. To function without anxiety,
+                               these people need to have a solid action plan and follow it to
+                               the letter.</string>
+    <string name ="phlegmatic">The passiveness of the phlegmatic temperament type leads to a
+                               distinct set of characteristics. They are easy-going, calm, and
+                               unemotional. They can be indecisive and agreeable and are usually
+                               happy to allow others to make decisions for them. Phlegmatic
+                               temperament people are slow to warm up to others but will make
+                               friends fairly easily. They are one of the easiest temperament
+                               types to get along with because they are so agreeable and patient.
+                               However, they stick closely to their routines and resist change.
+                               </string>
+    <string name ="sanguine">People with the sanguine temperament type have a wide range of
+                             emotions and a wide range of behavior. They are the most versatile
+                             of all the temperaments. Depending on their secondary temperament,
+                             they might be involved in nearly any human activity. However, they
+                             enjoy occasions when they can interact with or change their
+                             environment.</string>
+
+    <string name="choleric_score">Choleric: %1$d</string>
+    <string name="melancholic_score">Melancholic: %1$d</string>
+    <string name="phlegmatic_score">Phlegmatic: %1$d</string>
+    <string name="sanguine_score">Sanguine: %1$d</string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+@Author: Minh Duong
+@Description: This XML file contains order and styles of the contents of the User Interface
+              of the MainActivity activity, which is the user interface of the app.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poor_richard"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:textSize="60dp" />
+
+    <!-- Share button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:background="@color/button"
+        android:text="@string/share_button"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poor_richard"
+        android:textStyle="italic"
+        android:textColor="@color/text"
+        android:textSize="30dp"
+        android:onClick="shareClicked"/>
+
+    <!-- Encapsulates 4 partial images into a linear layout -->
+    <LinearLayout
+        android:id="@+id/collage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Linear layout to split up the screen by 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <!-- Constraint layout to make a square-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/image1"
+                    android:onClick="imagePressed"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <!-- Constraint layout to make a square-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/image2"
+                    android:onClick="imagePressed"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <!-- Linear layout to split up the screen by 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <!-- Constraint layout to make a square-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/image3"
+                    android:onClick="imagePressed"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <!-- Constraint layout to make a square-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/image4"
+                    android:onClick="imagePressed"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

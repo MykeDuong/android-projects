@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sound Board</string>
+
+    <!--Strings for titles and the toggle button-->
+    <string name="title">SKYRIM</string>
+    <string name="toggle">Toggle Delay</string>
+
+    <!--Strings for the sound buttons-->
+    <string name="arrow">Took an arrow in the knee</string>
+    <string name="hammer">One Big Hammer</string>
+    <string name="nope">No Lollygaggin</string>
+    <string name="sweetroll">Someone stole your sweetroll?</string>
+</resources>

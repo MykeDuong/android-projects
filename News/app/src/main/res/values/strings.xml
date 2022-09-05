@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News Reader</string>
+
+    <!-- Search Fragment Strings -->
+    <string name="search_prompt">Search the news</string>
+    <string name="search_button">Search</string>
+
+    <!-- Preview Fragment Strings -->
+    <string name="read_more_button">Read more...</string>
+</resources>

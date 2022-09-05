@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+@Author: Minh Duong
+@Description: This XML file contains the View of a Row in the ListView in the SearchFragment.
+              This row has 2 columns, divided 60-40 and contains the source and the author
+              respectively.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="70dp"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/sourceTextView"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="60"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:textColor="@color/text_color"
+        android:text="Source" />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="40"
+        android:layout_height="match_parent"
+        android:paddingLeft="3dp"
+        android:textSize="20sp"
+        android:textColor="@color/text_color"
+        android:text="Author" />
+
+</LinearLayout>

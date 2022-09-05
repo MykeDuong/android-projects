@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+@Author: Minh Duong
+@Description: This XML file contains Views of the DrawingFragment. It contains the buttons for
+              changing the Drawing behavior, and a LinearLayout to hold the DrawingView.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/red_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:background="@color/red" />
+
+        <Button
+            android:id="@+id/green_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:background="@color/green" />
+
+        <Button
+            android:id="@+id/blue_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:background="@color/blue" />
+
+        <Button
+            android:id="@+id/black_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:background="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/small_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="@string/small"
+            android:background="@color/dark_gray" />
+
+        <Button
+            android:id="@+id/medium_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="@string/medium"
+            android:background="@color/gray" />
+
+        <Button
+            android:id="@+id/large_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="@string/large"
+            android:background="@color/light_gray" />
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="@string/clear"
+            android:textColor="@color/white"
+            android:background="@color/steel_gray" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="@string/share"
+            android:textColor="@color/white"
+            android:background="@color/charcoal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    
+</LinearLayout>

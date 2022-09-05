@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ThemeXML</string>
+    <string name="heading">SKYRIM</string>
+    <string name="skyrim_intro">The Elder Scrolls V: Skyrim is an open-world action role-playing
+                                video game developed by Bethesda Game Studios. It is the fifth
+                                main installment in the Elder Scrolls series.</string>
+    <string name="skyrim_description">Its main story focuses on the player\'s character, the
+                                      Dragonborn, on their quest to defeat Alduin the World-Eater,
+                                      a dragon who is prophesied to destroy the world. Over the
+                                      course of the game, the player completes quests and develops
+                                      the character by improving skills.</string>
+    <string name="skyrim_land">As the name suggests, the game takes place in Skyrim, a cold,
+                               mountainous region in the northernmost of the continent. The
+                               landscape is filled with cities and towns, as well as forts, camps,
+                               and ruins, many of which are hostile to the player.</string>
+    <string name="skyrim_dlc">Skyrim also received 3 Downloadable Contents (DLCs), which further
+                              expand the game. Dawnguard saw an overhaul to the vampire and
+                              werewolf systems, Hearthfire introduced an all-new home-building
+                              mechanic, and Dragonborn returned player to a place from one of
+                              the game\'s predecessor.</string>
+</resources>
